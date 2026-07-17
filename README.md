@@ -18,6 +18,7 @@ Within VScode
     PASSWORD = "your_password"   
     DATABASE = "your_db"
 
-  # Make sure you have the Python Dependencies installed
+   Make sure you have the Python Dependencies installed
    pip install mysql-connector-python
+   and
    pip install requests
