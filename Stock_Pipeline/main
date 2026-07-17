@@ -1,0 +1,9 @@
+from api_client import run_api_ingestion_pipeline
+
+if __name__ == "__main__":
+    
+    success = run_api_ingestion_pipeline()
+    if success:
+         print("Pipeline execution ended.")
+    else:
+        print("Pipeline finished with errors (check info above).")  
